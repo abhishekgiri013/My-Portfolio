@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    // Add or override specific rules here
+    "no-useless-escape": "off", // Example: Disable the rule about useless escape characters
+    // Add more rules as needed
+  }
 }
