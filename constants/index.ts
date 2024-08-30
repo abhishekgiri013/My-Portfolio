@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
+import { AiOutlineMail } from 'react-icons/ai';
 
 export const SkillData = [
   {
@@ -79,38 +81,53 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Discord",
-    src: "/instagram.svg",
+    src: "/linkedIn.svg",
+    link: "https://www.linkedin.com/in/abhishekgiri013/", // Replace with your Discord profile URL
   },
   {
     name: "Facebook",
-    src: "/facebook.svg",
+    src: "/github.svg",
+    link: "https://github.com/abhishekgiri013", // Replace with your Facebook profile URL
   },
   {
     name: "Instagram",
-    src: "/discord.svg",
+    src: "/instagram.svg",
+    link: "https://instagram.com/your-instagram-profile", // Replace with your Instagram profile URL
   },
 ];
+
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "NextCommerce",
+    text: "its a ecommerce website developed in nextjs",
     src: "/pro1.png",
+    Link: "http://localhost:3000",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebdsite.png",
+    title: "",
+    text: "",
+    src: "/SpaceWebsite.png",
+    Link: "http://localhost:3000",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfodlio.png",
+    title: "",
+    text: "",
+    src: "/WebPortfolio.png",
+    Link: "http://localhost:3000",
   },
   {
     title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.pdng",
+    text: "",
+    src: "/Matrix.png",
+    Link: "http://localhost:3000",
   },
+  {
+    title: "Matrix themed Website",
+    text: "",
+    src: "/Matrix.png",
+    Link: "http://localhost:3000",
+  },
+  
 ];
 
 export const NavLinks = [
@@ -129,9 +146,15 @@ export const NavLinks = [
     icon: RxDashboard,
     link: "/my-projects",
   },
+  
   {
     name: "/contact-me",
     icon: RxClipboard,
+    link: "/about-me",
+  },
+  {
+    name: "/contact-me",
+    icon: AiOutlineMail,
     link: "/contact-me",
   },
 ];
