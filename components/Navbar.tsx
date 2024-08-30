@@ -10,10 +10,10 @@ const Navbar = () => {
     <div className='fixed top-0 z-20 w-full h-[100px] bg-transparent flex justify-between items-center px-4 md:px-10 lg:px-20'>
       <div className='flex flex-row gap-3 items-center'>
         <Link href="/" passHref>
-          <div className='relative cursor-pointer'>
+          <div className='relative cursor-pointer' aria-label="Home">
             <Image
               src="/abhi.jpg"
-              alt='logo'
+              alt='Abhishek Giri logo'
               width={40}
               height={40}
               className='w-full h-full object-contain rounded-full'
@@ -28,10 +28,10 @@ const Navbar = () => {
       </div>
       <div className="flex flex-row gap-4">
         {Socials.map((social) => (
-          <Link key={social.name} href={social.link} target="_blank" rel="noopener noreferrer">
+          <Link key={social.name} href={social.link} target="_blank" rel="noopener noreferrer" aria-label={`Follow me on ${social.name}`}>
             <Image
               src={social.src}
-              alt={social.name}
+              alt={`${social.name} icon`}
               width={28}
               height={28}
             />
