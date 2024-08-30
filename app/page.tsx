@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -68,7 +70,7 @@ export default function Home() {
           href="/about-me"
           className="rounded-[20px] group bg-transparent border border-white px-4 py-2 text-base text-white max-w-[180px]"
         >
-          Contact me
+          About me
         </Link>
         <Link
           href="/contact-me"

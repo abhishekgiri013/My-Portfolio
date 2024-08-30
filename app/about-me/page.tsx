@@ -25,7 +25,7 @@ const AboutMe = () => {
                             Experienced Full Stack Developer | Next.js Developer | MERN Stack | Writer | YouTube Educator
                         </p>
                         <p className='text-base md:text-lg mb-4'>
-                            👋 Hi there, I am Abhishek Giri. I am an undergraduate student at Delhi Technological University, an India-based university. I have a background in Engineering Physics, which has given me immense exposure to the problems and issues faced by people in their daily tasks. Being passionate about the possibilities of advancing technology and how these advancements are affecting the overall growth of different sectors that serve mankind, I try building solutions for the community and thereby doing my part in making people's lives easier and more meaningful. And also I am a passionate Full Stack Web Developer with a focus on delivering robust and scalable solutions. With experience in MERN stack and responsive design, I have developed and deployed various web applications, including real-time chat apps, e-commerce platforms, and more.
+                            👋 Hi there, I am Abhishek Giri. I am an undergraduate student at Delhi Technological University, an India-based university. With a background in Engineering Physics, I have gained exposure to various problems and issues faced by people in their daily tasks. I am passionate about advancing technology and its impact on different sectors, and I strive to build solutions that make people&apos;s lives easier and more meaningful. Additionally, I am a Full Stack Web Developer experienced in MERN stack and responsive design, having developed and deployed various web applications, including real-time chat apps and e-commerce platforms.
                         </p>
                         <div className='mb-4'>
                             <h2 className='text-xl md:text-2xl font-semibold mb-2'>🚀 Tech Stack</h2>
@@ -58,7 +58,7 @@ const AboutMe = () => {
                         <div>
                             <h2 className='text-xl md:text-2xl font-semibold mb-2'>⚡ Fun fact</h2>
                             <p className='text-base md:text-lg'>
-                                When I'm not coding, you might find me exploring new technologies, contributing to open-source projects, or engaging in community development initiatives.
+                                When I&apos;m not coding, you might find me exploring new technologies, contributing to open-source projects, or engaging in community development initiatives.
                             </p>
                         </div>
                     </div>
